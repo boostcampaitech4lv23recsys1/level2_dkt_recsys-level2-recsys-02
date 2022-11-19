@@ -1,3 +1,6 @@
 .vscode/
 data/
 asset/
+wandb/
+__pycache__/
+models/
