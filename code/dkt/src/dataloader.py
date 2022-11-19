@@ -72,9 +72,14 @@ class Preprocess:
                 datetime.strptime(s, "%Y-%m-%d %H:%M:%S").timetuple()
             )
             return int(timestamp)
-
-        df["Timestamp"] = df["Timestamp"].apply(convert_time)
-
+        
+        path = '/opt/ml/input/level2/code/dkt/asset/timestamp.npy' # 본인 환경에 맞게 설정
+        if os.path.isfile(path):
+            df["Timestamp"] = np.load(path) 
+        else:
+            df["Timestamp"] = df["Timestamp"].apply(convert_time) # 이게 3분 정도 걸림...
+            np.save(path, df["Timestamp"].to_numpy())
+            
         return df
 
     def __feature_engineering(self, df):
