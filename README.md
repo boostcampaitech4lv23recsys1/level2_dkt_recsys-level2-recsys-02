@@ -19,7 +19,7 @@
       <a href="https://github.com/ktasha45"><img src="https://avatars.githubusercontent.com/ktasha45"/></a>
     </td>
     <td align="center" width="150px">
-      <a href="https://github.com/Zerotay"><img src="https://avatars.githubusercontent.com/Zerotay"/></a>
+      <a href="https://github.com/NIckmin96"><img src="https://avatars.githubusercontent.com/NIckmin96"/></a>
     </td>
     <td align="center" width="150px">
       <a href="https://github.com/parkkyungjun"><img src="https://avatars.githubusercontent.com/parkkyungjun"/></a>
@@ -36,7 +36,7 @@
       <a href="https://github.com/ktasha45">김동영_4028</a>
     </td>
     <td align="center" width="150px">
-      <a href="https://github.com/Zerotay">민복기_T4074</a>
+      <a href="https://github.com/NIckmin96">민복기_T4074</a>
     </td>
     <td align="center" width="150px">
       <a href="https://github.com/parkkyungjun">박경준_T4076</a>
