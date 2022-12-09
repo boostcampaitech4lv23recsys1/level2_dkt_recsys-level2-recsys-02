@@ -1,0 +1,4 @@
+fluent-sweep
+
+
+train.py --batch_size=128 --drop_out=0.1294439089409315 --hidden_dim=60 --lr=0.0001257418749332139 --n_heads=4 --n_layers=2 --optimizer=adamW
